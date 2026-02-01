@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ALT-1001",
+    "title": "Suspicious Login from New Location",
+    "severity": "Medium",
+    "source": "Azure AD",
+    "description": "User login detected from an unusual geographic location",
+    "createdAt": "2026-01-10T10:20:00Z"
+  },
+  {
+    "id": "ALT-1002",
+    "title": "Phishing Email Detected",
+    "severity": "High",
+    "source": "Microsoft Defender",
+    "description": "Email containing credential harvesting link detected",
+    "createdAt": "2026-01-10T11:00:00Z"
+  },
+  {
+    "id": "ALT-1003",
+    "title": "Multiple Failed Login Attempts",
+    "severity": "Medium",
+    "source": "Windows Security",
+    "description": "Multiple failed login attempts detected from a single IP",
+    "createdAt": "2026-01-10T11:30:00Z"
+  },
+  {
+    "id": "ALT-1004",
+    "title": "Malware Detected on Endpoint",
+    "severity": "Critical",
+    "source": "CrowdStrike",
+    "description": "Trojan malware detected and quarantined on endpoint",
+    "createdAt": "2026-01-10T12:10:00Z"
+  },
+  {
+    "id": "ALT-1005",
+    "title": "Suspicious PowerShell Execution",
+    "severity": "High",
+    "source": "EDR",
+    "description": "Encoded PowerShell command executed by user",
+    "createdAt": "2026-01-10T12:40:00Z"
+  },
+  {
+    "id": "ALT-1006",
+    "title": "Privilege Escalation Attempt",
+    "severity": "Critical",
+    "source": "SIEM",
+    "description": "Unauthorized attempt to add user to admin group",
+    "createdAt": "2026-01-10T13:05:00Z"
+  },
+  {
+    "id": "ALT-1007",
+    "title": "Possible Lateral Movement Detected",
+    "severity": "High",
+    "source": "Network IDS",
+    "description": "Abnormal SMB traffic between internal hosts",
+    "createdAt": "2026-01-10T13:40:00Z"
+  },
+  {
+    "id": "ALT-1008",
+    "title": "Suspicious File Download",
+    "severity": "Medium",
+    "source": "Proxy",
+    "description": "Executable downloaded from newly registered domain",
+    "createdAt": "2026-01-10T14:10:00Z"
+  },
+  {
+    "id": "ALT-1009",
+    "title": "Brute Force Attack Detected",
+    "severity": "High",
+    "source": "Firewall",
+    "description": "Repeated authentication attempts against SSH service",
+    "createdAt": "2026-01-10T14:45:00Z"
+  },
+  {
+    "id": "ALT-1010",
+    "title": "Suspicious OAuth Application Consent",
+    "severity": "High",
+    "source": "Azure AD",
+    "description": "User granted permissions to unknown OAuth app",
+    "createdAt": "2026-01-10T15:10:00Z"
+  }
+]
